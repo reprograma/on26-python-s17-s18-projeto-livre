@@ -4,7 +4,7 @@
 
 # Tema da Aula
 
-Turma Online X | X-end | Semana X | 202X | Professora X
+Turma Online 26 | Python | Semana 14 | 2023 | Mariana Rezende
 
 ### Instruções
 Antes de começar, vamos organizar nosso setup.
@@ -15,7 +15,7 @@ Antes de começar, vamos organizar nosso setup.
 
 ### Resumo
 O que veremos na aula de hoje?
-* [Tema1](#tema1)
+* [Slides](https://www.canva.com/design/DAFzkvKuiiY/ms5PQwLZPqkdIQb7mYHJQQ/edit?utm_content=DAFzkvKuiiY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 * [Tema2](#tema2)
 * [Tema3](#tema3)
 
