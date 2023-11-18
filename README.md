@@ -4,7 +4,7 @@
 
 # Tema da Aula
 
-Turma Online 26 | Python | Semana 14 | 2023 | Mariana Rezende
+Turma Online 26 | Python | Semanas 17 e 18 | 2023 | Mariana Rezende
 
 ### Instruções
 Antes de começar, vamos organizar nosso setup.
