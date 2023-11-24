@@ -11,67 +11,92 @@ Antes de começar, vamos organizar nosso setup.
 * Fork esse repositório 
 * Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
 * Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras intrucoes caso necessario]
 
 ### Resumo
 O que veremos na aula de hoje?
 * [Slides](https://www.canva.com/design/DAFzkvKuiiY/ms5PQwLZPqkdIQb7mYHJQQ/edit?utm_content=DAFzkvKuiiY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-* [Tema2](#tema2)
-* [Tema3](#tema3)
+
+* [Escolhendo uma fonte de dados](#Escolhendoumafontededados)
+* [Análise exploratória]()
+* [Criando uma história com dados]()
 
 ## Conteúdo
-### Tema1 
-1. [Tópico 1](#topico1)
-2. [Tópico 2](#topico2)
-### Tema2 
-1. [Tópico 3](#topico3)
-   * [Subtópico 1](#subtopico1)
-   * [Subtópico 2](#subtopico2)
-   
-### Tema3
-1. [Tópico 4](#topico4)
 
-### Tema1 
+### O que é um projeto de análise de dados?
+Nesse ponto vocês já devem ter aprendido que dado != informação
 
-#### Topico1
+<img src="assets/4IpF.gif?raw=true"  width="500">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices. Nunc ante massa, dictum eget justo eget, feugiat tincidunt metus.
+Por isso a importância de nós contarmos uma história estruturada a partir dos dados que conseguimos coletar. E é exatamente sobre isso, que se trata um projeto de analise de dados: **gerar informação útil a partir da contrução de uma perspectiva contextualizada!**
 
- #### Topico2
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  - Donec erat mauris, laoreet in tortor vel
-  - Nunc ante massa, dictum eget justo eget, feugiat tincidunt.
+Então aqui vão algumas perguntas gerais que devemos nos fazer ao iniciar um projeto como esse:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit.
+- **Conteúdo**
+  - O que eu quero informar?
+- **Público**
+  - Para quem eu estou contanto essa história?/ Com quem vou compartilhar essa informação?
+- **Transformação**
+  - Por que essa informação é relevante?
+    
+ok, as perguntas são importantes, 
 
-### Tema2
-#### Topico3
-* [Subtópico 1](#subtopico1)
-* [Subtópico 2](#Subtopico2)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+MAS POR ONDE COMEÇAR?!
 
-##### Subtopico1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+### Escolhendo uma fonte de dados
 
-##### Subtopico2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+#### O caminho comum
+Se você já fez algum tipo de pesquisa acadêmica (TCC, Iniciação Científica, etc) você certamente está familiarizado com esse processo, pois tudo começa com a escolha de um TEMA, seguindo para a definição do PROBLEMA, que em seguida é desdobrado em PERGUNTAS, que que irão guiar a COLETA DE DADOS.
 
-### Tema3
-#### Topico4
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices.
+1. Delimitação do Tema
+2. Definição do Problema
+3. Desenvolvimento de Perguntas
+4. Coleta de Dados
+
+#### O caminho que iremos seguir
+Porque esse projeto é um exercício e encontrar os dados ideais para responder às nossas perguntas pode se tornar um trabalho extremamente complexo...
+
+Nós iremos fazer um caminho um pouco diferente e a partir de um tema de interesse, escolher uma base e então pensar quais perguntas podem ser respondidas a partir dela.
+
+O QUE TAMBÉM É SUPER VÁLIDO! E PODE RENDER DESCOBERTAS INCRÍVEIS!
+
+  * **Escolha do tema**
+
+    No primeiro momento você deve escolher qual assunto gostaria de abordar. Pense em um tema atual, relevante e até onde você vai aprofundar a análise. Lembre-se, não adianta abraçar o mundo sozinho, você precisa focar e entregar o melhor resultado possível, então trabalhe na delimitação do Tema! Quais são os recortes possíveis dentro do universo escolhido?
+
+    #Dica: Dê prioridade para algo que você goste, se interesse, tenha afinidade ou conhecimento na área.
+
+  * **Escolha da Base de Dados**
+    
+    [Algumas opções de Bases de Dados](#base-de-dados)
+
+* **Definindo nossas perguntas**
+  
+  O que eu quero tentar responder? VAMOS AO [BRAINSTORM](#material-da-aula)!
 
 ***
-### Exercícios 
-* [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
-* [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
 
 ### Material da aula 
+* [Slides](https://www.canva.com/design/DAFzkvKuiiY/ms5PQwLZPqkdIQb7mYHJQQ/edit?utm_content=DAFzkvKuiiY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+* [Brainstorm Tamplates](https://www.canva.com/design/DAF1Fjhzuuo/dWrzvTBF4n5oMWZzZQiS7w/edit?utm_content=DAF1Fjhzuuo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+* [Entregáveis](https://docs.google.com/document/d/e/2PACX-1vSg6G-QMxEYCFCwjmtgDY7bmOAxfGKyVIqGFdqr9LuuwbGmWZ69PCZRW_cha5iX7WB89FXWrFjHtvVX/pub)
+
+### Dicas
+- Começe a trabalhar na sua base de dados já integrada ao Tableau! É um processo de idas e vindas!
 
 ### Links Úteis
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+- [Documentação Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
+- [Introdução ao Pandas](https://medium.com/tech-grupozap/introdu%C3%A7%C3%A3o-a-biblioteca-pandas-89fa8ed4fa38)
+- [Análise Exploratória de Dados I](https://escoladedados.org/tutoriais/analise-exploratoria-de-dados/)
+- [Análise Exploratória de Dados II](https://www.alura.com.br/artigos/analise-exploratoria)
+- [Storytelling com Dados](https://medium.com/resumos-resenhas/storytelling-com-dados-resumo-fd63ebe4f704)
+- [Markdown Cheastsheet](https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet)
+
+  #### Base de Dados
+- [Kaggle](https://www.kaggle.com/datasets)
+- [IBGE](https://ces.ibge.gov.br/base-de-dados/links-base-de-dados.html)
+- [Brasil.io](https://brasil.io/datasets/)
+- [Gov.br](https://dados.gov.br/dados/conjuntos-dados)
+- [Nosso Mundo em Dados](https://ourworldindata.org/charts)
 
 
 <p align="center">
