@@ -17,8 +17,8 @@ O que veremos na aula de hoje?
 * [Slides](https://www.canva.com/design/DAFzkvKuiiY/ms5PQwLZPqkdIQb7mYHJQQ/edit?utm_content=DAFzkvKuiiY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 * [Escolhendo uma fonte de dados](#Escolhendoumafontededados)
-* [Análise exploratória](#Tema4)
-* [Criando uma história com dados](#Tema3)
+* [Análise exploratória]()
+* [Criando uma história com dados]()
 
 ## Conteúdo
 
