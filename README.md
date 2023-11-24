@@ -25,7 +25,7 @@ O que veremos na aula de hoje?
 ### O que é um projeto de análise de dados?
 Nesse ponto vocês já devem ter aprendido que dado != informação
 
-![](https://i.gifer.com/4IpF.gif)
+<img src="assets/4IpF.gif?raw=true"  width="500">
 
 Por isso a importância de nós contarmos uma história estruturada a partir dos dados que conseguimos coletar. E é exatamente sobre isso, que se trata um projeto de analise de dados: **gerar informação útil a partir da contrução de uma perspectiva contextualizada!**
 
