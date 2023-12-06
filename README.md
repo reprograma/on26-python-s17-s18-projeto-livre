@@ -1,107 +1,78 @@
-<h1 align="center">
-  <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
-</h1>
+## Projeto Final - Zênite Serena - Desmatamento e Agropecuária no Brasil
 
-# Tema da Aula
+### Contextualização
 
-Turma Online 26 | Python | Semanas 17 e 18 | 2023 | Mariana Rezende
+A crise climática representa o maior desafio já enfrentado pela humanidade. Trata-se de um problema multifacetado, mas com alguns determinantes centrais: o aquecimento global causado pela emissão de gases do efeito estufa (sobretudo o dióxido de carbono, CO2), o desmatamento de florestas nativas, o aumento do nível do mar devido ao derretimento das calotas polares e a subsequente queda em biodiversidade que estes problemas acarretam.
 
-### Instruções
-Antes de começar, vamos organizar nosso setup.
-* Fork esse repositório 
-* Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
+Em análises anteriores, abordamos o aumento da temperatura global e a emissão de dióxido de carbono. Para a presente análise, olharemos para a relação entre desmatamento e produção agropecuária, com enfoque no Brasil.
 
-### Resumo
-O que veremos na aula de hoje?
-* [Slides Semana I](https://www.canva.com/design/DAFzkvKuiiY/ms5PQwLZPqkdIQb7mYHJQQ/edit?utm_content=DAFzkvKuiiY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-* [Slides Semana 2](https://www.canva.com/design/DAF1qj0o5mg/vL_zmQh25E5rh_5LPHVm8A/view?utm_content=DAF1qj0o5mg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+### Objetivos
 
+O objetivo geral desta análise é gerar visualizações que deem dimensões para o problema que deve ser enfrentado, relacionando o desmatamento com as principais atividades econômicas do nosso país.
 
-* [Escolhendo uma fonte de dados](#Escolhendoumafontededados)
-* [Análise exploratória]()
-* [Criando uma história com dados]()
+O desmatamento é a segunda maior fonte antropogênica de gases do efeito estufa (Pendrill et al., 2019), então este será o foco da nossa análise.
 
-## Conteúdo
+Para isso, partimos de dados disponíveis em revistas científicas relacionando o desmatamento à produção de alimentos. Posteriormente, utilizamos dados do Instituto Brasileiro de Geografia e Estatística (IBGE) para olhar para o papel econômico da produção agropecuária.
 
-### O que é um projeto de análise de dados?
-Nesse ponto vocês já devem ter aprendido que dado != informação
+Todas as fontes estão discriminadas nas referências e ao longo da análise exploratória.
 
-<img src="assets/4IpF.gif?raw=true"  width="500">
+### Tratamento de dados
 
-Por isso a importância de nós contarmos uma história estruturada a partir dos dados que conseguimos coletar. E é exatamente sobre isso, que se trata um projeto de analise de dados: **gerar informação útil a partir da contrução de uma perspectiva contextualizada!**
+Os bancos de dados retirados do site ourworldindata.org necessitaram de pouco tratamento, dado que estavam disponibilizados já tratados, assim como acompanhados de visualizações em gráficos, de modo que o trabalho da primeira parte do exercício consistiu basicamente no ranqueamento de valores, seleção de linhas, remoção de colunas, arredondamento de valores e tradução de colunas para o português. Após esse leve tratamento, plotamos gráficos que se assemelham àqueles disponíveis no site, então frisamos que o exercício consiste mais na prática no uso de funções da biblioteca matplotlib do que propriamente na criação de gráficos inéditos. 
 
-Então aqui vão algumas perguntas gerais que devemos nos fazer ao iniciar um projeto como esse:
+Para a segunda parte da análise, feita a partir de dados do IBGE, foi necessário mais tratamento de dados, visto que os bancos de dados não estavam tão apropriados para o que pretendíamos fazer. Foram necessários o tratamento de dados nulos ou NaN, a transposição de linhas e colunas, a remoção de colunas e linhas, a renomeação de colunas, a modificação do tipo de dados, arredondamento de valores, remoção de dados string e slicing para criação de subsets.
 
-- **Conteúdo**
-  - O que eu quero informar?
-- **Público**
-  - Para quem eu estou contanto essa história?/ Com quem vou compartilhar essa informação?
-- **Transformação**
-  - Por que essa informação é relevante?
-    
-ok, as perguntas são importantes, 
+Foram utilizadas as bibliotecas Pandas e Matplotlib.
 
-MAS POR ONDE COMEÇAR?!
+### Análise
 
-### Escolhendo uma fonte de dados
+As visualizações explicitam a dimensão do problema a ser enfrentado quando falamos de mudança climática. Se um dos determinantes centrais desta mudança é a emissão de CO2 que resulta no aquecimento global, e sendo o desmatamento a segunda maior fonte antropogênica de gases do efeito estufa, é inegável que a economia do nosso país contribui para o problema, com seu foco na produção agropecuária para exportação.
 
-#### O caminho comum
-Se você já fez algum tipo de pesquisa acadêmica (TCC, Iniciação Científica, etc) você certamente está familiarizado com esse processo, pois tudo começa com a escolha de um TEMA, seguindo para a definição do PROBLEMA, que em seguida é desdobrado em PERGUNTAS, que que irão guiar a COLETA DE DADOS.
+É um desafio multifacetado e com inúmeros desdobramentos, mas um possível primeiro passo para o enfrentamento é o reconhecimento das suas principais causas, para que seja possível efetuar mudanças significativas no rumo que se tem tomado até aqui.
 
-1. Delimitação do Tema
-2. Definição do Problema
-3. Desenvolvimento de Perguntas
-4. Coleta de Dados
+### Visualizações
 
-#### O caminho que iremos seguir
-Porque esse projeto é um exercício e encontrar os dados ideais para responder às nossas perguntas pode se tornar um trabalho extremamente complexo...
+Link do dashboard: https://public.tableau.com/views/ProjetoFinal-Reprograma-on26-ZniteSerena/DesmatamentoCO2eProduodealimentos
 
-Nós iremos fazer um caminho um pouco diferente e a partir de um tema de interesse, escolher uma base e então pensar quais perguntas podem ser respondidas a partir dela.
+Na pasta 'dashboard' é possível encontrar o arquivo do dashboard em extensão .twbx assim como imagens dos dashboards em .png.
 
-O QUE TAMBÉM É SUPER VÁLIDO! E PODE RENDER DESCOBERTAS INCRÍVEIS!
+## Referências: 
 
-  * **Escolha do tema**
+### Visualização de dados:
 
-    No primeiro momento você deve escolher qual assunto gostaria de abordar. Pense em um tema atual, relevante e até onde você vai aprofundar a análise. Lembre-se, não adianta abraçar o mundo sozinho, você precisa focar e entregar o melhor resultado possível, então trabalhe na delimitação do Tema! Quais são os recortes possíveis dentro do universo escolhido?
+https://python-graph-gallery.com/
 
-    #Dica: Dê prioridade para algo que você goste, se interesse, tenha afinidade ou conhecimento na área.
+https://matplotlib.org/
 
-  * **Escolha da Base de Dados**
-    
-    [Algumas opções de Bases de Dados](#base-de-dados)
+https://www.data-to-viz.com/
 
-* **Definindo nossas perguntas**
-  
-  O que eu quero tentar responder? VAMOS AO [BRAINSTORM](#material-da-aula)!
+### Desmatamento de florestas tropicais:
 
-***
+"Deforestation and Forest Loss"
 
-### Material da aula 
-* [Slides](https://www.canva.com/design/DAFzkvKuiiY/ms5PQwLZPqkdIQb7mYHJQQ/edit?utm_content=DAFzkvKuiiY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-* [Brainstorm Tamplates](https://www.canva.com/design/DAF1Fjhzuuo/dWrzvTBF4n5oMWZzZQiS7w/edit?utm_content=DAF1Fjhzuuo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-* [Entregáveis](https://docs.google.com/document/d/e/2PACX-1vSg6G-QMxEYCFCwjmtgDY7bmOAxfGKyVIqGFdqr9LuuwbGmWZ69PCZRW_cha5iX7WB89FXWrFjHtvVX/pub)
-
-### Dicas
-- Começe a trabalhar na sua base de dados já integrada ao Tableau! É um processo de idas e vindas!
-
-### Links Úteis
-- [Documentação Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
-- [Introdução ao Pandas](https://medium.com/tech-grupozap/introdu%C3%A7%C3%A3o-a-biblioteca-pandas-89fa8ed4fa38)
-- [Análise Exploratória de Dados I](https://escoladedados.org/tutoriais/analise-exploratoria-de-dados/)
-- [Análise Exploratória de Dados II](https://www.alura.com.br/artigos/analise-exploratoria)
-- [Storytelling com Dados](https://medium.com/resumos-resenhas/storytelling-com-dados-resumo-fd63ebe4f704)
-- [Markdown Cheastsheet](https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet)
-
-  #### Base de Dados
-- [Kaggle](https://www.kaggle.com/datasets)
-- [IBGE](https://ces.ibge.gov.br/base-de-dados/links-base-de-dados.html)
-- [Brasil.io](https://brasil.io/datasets/)
-- [Gov.br](https://dados.gov.br/dados/conjuntos-dados)
-- [Nosso Mundo em Dados](https://ourworldindata.org/charts)
+https://ourworldindata.org/deforestation
 
 
-<p align="center">
-Desenvolvido com :purple_heart:  
-</p>
+"Cutting down forests: what are the drivers of deforestation?"
 
+https://ourworldindata.org/what-are-drivers-deforestation 
+
+"Is our appetite for soy driving deforestation in the Amazon?"
+
+https://ourworldindata.org/soy
+
+### Produção agropecuária no Brasil
+Sistema IBGE de Recuperação Automática - SIDRA
+
+https://sidra.ibge.gov.br/Acervo
+https://sidra.ibge.gov.br/tabela/6588
+
+
+Ministério da indústria, comércio exterior e serviços (Comex Stat - Exportação e Importação Geral):
+
+http://comexstat.mdic.gov.br/pt/geral/86263
+
+
+"Complexo da Soja: Análise dos dados nacionais e internacionais" (2019)
+
+https://thetricontinental.org/pt-pt/brasil/complexo-da-soja-analise-dos-dados-nacionais-e-internacionais/
