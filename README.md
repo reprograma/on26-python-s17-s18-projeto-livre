@@ -14,7 +14,9 @@ Antes de começar, vamos organizar nosso setup.
 
 ### Resumo
 O que veremos na aula de hoje?
-* [Slides](https://www.canva.com/design/DAFzkvKuiiY/ms5PQwLZPqkdIQb7mYHJQQ/edit?utm_content=DAFzkvKuiiY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+* [Slides Semana I](https://www.canva.com/design/DAFzkvKuiiY/ms5PQwLZPqkdIQb7mYHJQQ/edit?utm_content=DAFzkvKuiiY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+* [Slides Semana 2](https://www.canva.com/design/DAF1qj0o5mg/vL_zmQh25E5rh_5LPHVm8A/view?utm_content=DAF1qj0o5mg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
 
 * [Escolhendo uma fonte de dados](#Escolhendoumafontededados)
 * [Análise exploratória]()
