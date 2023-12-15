@@ -1,105 +1,158 @@
 <h1 align="center">
-  <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
-</h1>
-
-# Tema da Aula
-
-Turma Online 26 | Python | Semanas 17 e 18 | 2023 | Mariana Rezende
-
-### Instruções
-Antes de começar, vamos organizar nosso setup.
-* Fork esse repositório 
-* Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-
-### Resumo
-O que veremos na aula de hoje?
-* [Slides](https://www.canva.com/design/DAFzkvKuiiY/ms5PQwLZPqkdIQb7mYHJQQ/edit?utm_content=DAFzkvKuiiY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-* [Escolhendo uma fonte de dados](#Escolhendoumafontededados)
-* [Análise exploratória]()
-* [Criando uma história com dados]()
-
-## Conteúdo
-
-### O que é um projeto de análise de dados?
-Nesse ponto vocês já devem ter aprendido que dado != informação
-
-<img src="assets/4IpF.gif?raw=true"  width="500">
-
-Por isso a importância de nós contarmos uma história estruturada a partir dos dados que conseguimos coletar. E é exatamente sobre isso, que se trata um projeto de analise de dados: **gerar informação útil a partir da contrução de uma perspectiva contextualizada!**
-
-Então aqui vão algumas perguntas gerais que devemos nos fazer ao iniciar um projeto como esse:
-
-- **Conteúdo**
-  - O que eu quero informar?
-- **Público**
-  - Para quem eu estou contanto essa história?/ Com quem vou compartilhar essa informação?
-- **Transformação**
-  - Por que essa informação é relevante?
-    
-ok, as perguntas são importantes, 
-
-MAS POR ONDE COMEÇAR?!
-
-### Escolhendo uma fonte de dados
-
-#### O caminho comum
-Se você já fez algum tipo de pesquisa acadêmica (TCC, Iniciação Científica, etc) você certamente está familiarizado com esse processo, pois tudo começa com a escolha de um TEMA, seguindo para a definição do PROBLEMA, que em seguida é desdobrado em PERGUNTAS, que que irão guiar a COLETA DE DADOS.
-
-1. Delimitação do Tema
-2. Definição do Problema
-3. Desenvolvimento de Perguntas
-4. Coleta de Dados
-
-#### O caminho que iremos seguir
-Porque esse projeto é um exercício e encontrar os dados ideais para responder às nossas perguntas pode se tornar um trabalho extremamente complexo...
-
-Nós iremos fazer um caminho um pouco diferente e a partir de um tema de interesse, escolher uma base e então pensar quais perguntas podem ser respondidas a partir dela.
-
-O QUE TAMBÉM É SUPER VÁLIDO! E PODE RENDER DESCOBERTAS INCRÍVEIS!
-
-  * **Escolha do tema**
-
-    No primeiro momento você deve escolher qual assunto gostaria de abordar. Pense em um tema atual, relevante e até onde você vai aprofundar a análise. Lembre-se, não adianta abraçar o mundo sozinho, você precisa focar e entregar o melhor resultado possível, então trabalhe na delimitação do Tema! Quais são os recortes possíveis dentro do universo escolhido?
-
-    #Dica: Dê prioridade para algo que você goste, se interesse, tenha afinidade ou conhecimento na área.
-
-  * **Escolha da Base de Dados**
-    
-    [Algumas opções de Bases de Dados](#base-de-dados)
-
-* **Definindo nossas perguntas**
-  
-  O que eu quero tentar responder? VAMOS AO [BRAINSTORM](#material-da-aula)!
-
-***
-
-### Material da aula 
-* [Slides](https://www.canva.com/design/DAFzkvKuiiY/ms5PQwLZPqkdIQb7mYHJQQ/edit?utm_content=DAFzkvKuiiY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-* [Brainstorm Tamplates](https://www.canva.com/design/DAF1Fjhzuuo/dWrzvTBF4n5oMWZzZQiS7w/edit?utm_content=DAF1Fjhzuuo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-* [Entregáveis](https://docs.google.com/document/d/e/2PACX-1vSg6G-QMxEYCFCwjmtgDY7bmOAxfGKyVIqGFdqr9LuuwbGmWZ69PCZRW_cha5iX7WB89FXWrFjHtvVX/pub)
-
-### Dicas
-- Começe a trabalhar na sua base de dados já integrada ao Tableau! É um processo de idas e vindas!
-
-### Links Úteis
-- [Documentação Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
-- [Introdução ao Pandas](https://medium.com/tech-grupozap/introdu%C3%A7%C3%A3o-a-biblioteca-pandas-89fa8ed4fa38)
-- [Análise Exploratória de Dados I](https://escoladedados.org/tutoriais/analise-exploratoria-de-dados/)
-- [Análise Exploratória de Dados II](https://www.alura.com.br/artigos/analise-exploratoria)
-- [Storytelling com Dados](https://medium.com/resumos-resenhas/storytelling-com-dados-resumo-fd63ebe4f704)
-- [Markdown Cheastsheet](https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet)
-
-  #### Base de Dados
-- [Kaggle](https://www.kaggle.com/datasets)
-- [IBGE](https://ces.ibge.gov.br/base-de-dados/links-base-de-dados.html)
-- [Brasil.io](https://brasil.io/datasets/)
-- [Gov.br](https://dados.gov.br/dados/conjuntos-dados)
-- [Nosso Mundo em Dados](https://ourworldindata.org/charts)
-
 
 <p align="center">
-Desenvolvido com :purple_heart:  
+<img src= "https://static.wixstatic.com/media/a7f4ce_9339bfdfcd284e69991c45bd94fb3157~mv2.png/v1/fill/w_280,h_355,q_30/a7f4ce_9339bfdfcd284e69991c45bd94fb3157~mv2.png" width="50%" height="30%"/>
 </p>
 
+<p align="center"><b> Uma breve análise sobre os fluxos de patentes no Brasil </b><p>
+
+# <br> Projeto Final Marianna Carvalho - {Reprograma}
+
+## Este é projeto final do curso de Análise de Dados | Turma On26 da [{Reprograma}](https://www.reprograma.com.br/).
+
+<br>
+<br>
+
+ Este projeto é uma Análise de dados feita no Jupyter Notebook com visualização no [Tableau](https://public.tableau.com/app/profile/marianna.carvalho/viz/ProjetoFinalOn26-MariCarvalho/viz1).
+
+<br>
+<br>
+
+<!--ts-->
+
+- [👧🏾 Objetivo](#-Objetivo)
+- [📁 Arquitetura do Projeto](#-Arquitetura-do-Projeto)
+- [👩🏾‍💻 Tecnologias e Dependências Utilizadas](#-Tecnologias-e-Dependências-Utilizadas)
+- [👩🏾‍🔧 Visualização](#-Visualização)
+- [⚗️ Interface Gráfica](#-Interface-Gráfica)
+- [🙋🏾‍♀️ Autora](#-Autora)
+
+<!--ts-->
+
+<br>
+<br>
+
+## 👧🏾 Objetivo
+
+<br>
+
+O objetivo desta análise de dados é mostrar um pouco sobre o fluxo das patentes no Brasil, de onde elas vêm, o que elas protegem, quem são os donos destas garantias de exclusividade para exploração de certas tecnologias e propor reflexões sobre a relação entre a quantidade de patentes de uma nação e seu desenvolvimento.
+
+<br>
+<br>
+
+## O que é uma Patente? (em termos beeeeeeeeeem resumidos)
+
+<br>
+
+Uma patente é um documento oficial que protege uma invenção única. É como um certificado que diz: "Eu fui o primeiro a criar isso!". Quando alguém inventa algo novo e solicita uma patente, o governo dá a essa pessoa o direito exclusivo de usar, vender ou compartilhar sua invenção por um tempo. Isso impede que outras pessoas copiem a ideia sem permissão. As patentes incentivam as pessoas a serem criativas, porque sabem que serão recompensadas e reconhecidas por suas ideias inovadoras.
+
+Em outras palavras, uma patente registrada é um certificado de garantia de exclusividade de exploração da tecnologia e, portanto, obtenção do lucro (ou de maior parte do lucro) gerado por aquela tecnologia. 
+
+Em nossa análise veremos que as patentes são um negócio muito lucrativo que incentivam investimentos em pesquisa e desenvolvimento de tecnologias justamente porque transformam a tecnologia e o conhecimento em um produto lucrativo, um bom investimento.
+
+<br>
+<br>
+
+
+**[Apresentação do Projeto Final]( )**
+
+<br>
+<br>
+
+
+## 📁 Arquitetura do Projeto
+
+<br>
+
+```
+ 📁projeto-final-on26
+   |
+   |--📁 final
+   |  |- 📄 analise_patentes.ipynb
+   |  |- 📄 depositos.csv
+   |  |
+   |- 📄 readme.md
+   
+
+```
+
+<br>
+<br>
+
+## 👩🏾‍💻 Tecnologias e Dependências Utilizadas
+
+<br>
+
+| Ferramenta | Descrição |
+| --- | --- |
+| `python` | Linguagem de programação. |
+| `pandas`    | Biblioteca criada para a linguagem Python para manipulação e análise de dados.|
+| `numpy`    | Biblioteca para a linguagem Python, que suporta o processamento de grandes, multi-dimensionais arranjos e matrizes. |
+| `matplotlib`   | Biblioteca de software para criação de gráficos e visualizações de dados em geral, feita para e da linguagem de programação Python.|
+| `seaborn`    | Ferramenta para plotagem dos mais variados tipos de gráficos em Python.|
+| `jupyter notebook`| Aplicação web criada para desenvolver software de código aberto, padrões abertos e serviços para computação interativa em dezenas de linguagens de programação.|
+| `Tableau`    | Plataforma de análise, exploração e gerenciamento de dados visuais.|
+
+
+<br>
+Link para o site com as bases de dados utilizadas:
+
+📝 [Instituto Nacional da Propriedade Industrial](https://www.gov.br/inpi/pt-br/central-de-conteudo/estatisticas/estatisticas)
+
+
+<br>
+<br>
+
+## 👩🏾‍🔧 Visualização
+
+<br>
+
+```ps
+# Clonar o repositório
+$ git clone https://github.com/maricarvi/projeto-final-on26.git
+
+# Entrar na pasta do repositório
+$ cd projeto-final-on26
+
+# Instalar as bibliotecas
+$ import pandas as pd
+$ import numpy as np
+$ import matplotlib.pyplot as plt
+$ import seaborn as sns
+
+# Executar o comando na parte superior do arquivo em .ipynb para que você possa rodar o projeto localmente no arquivo 'analise_patentes.ipynb'.
+$ Run ou Run All
+```
+<br>
+<br>
+
+## ⚗️ Interface Gráfica
+
+<br>
+
+📌 Este projeto está com visualizações públicas no Tableau. Você pode acessar no link [Tableau](https://public.tableau.com/app/profile/marianna.carvalho/viz/ProjetoFinalOn26-MariCarvalho/viz1).
+
+<br>
+<br>
+
+Projeto criado com a orientação e cuidado da Professora [Mariana Rezende](https://www.linkedin.com/in/mariana-vb-rezende/)!<br>
+
+<br>
+Agradecimento principal a Loui Costa que disponibilizou seu modelo de readme para as outras alunas que não estavam tão seguras com construir os seus do zero, à todas as mulheres maravilhosas e inspiradoras da Reprograma, pois sem elas eu não teria a coragem e a inspiração de estar aqui tentando o meu melhor mesmo sentindo que ainda sei tão pouco! E, por último mas não menos importante, aos meus amores - Victor, Tori, Chimichanga, Layssa e Juliana, especificamente - que não deixaram a inspiração e a motivação ficar só no Zoom e no Whatsapp e trouxeram também para a minha casa um acolhimento capaz de me convencer de que tudo posso e de que tudo dará certo, no meu tempo. 💜
+
+<br>
+<br>
+
+<span align="center">
+
+#  Muito obrigada a você que chegou até aqui! E muito obrigada {Reprograma} por mudar a minha vida. 💜 </h2>
+
+
+
+## 🙋🏾‍♀️ Autora 
+
+<br>
+
+<p align="center"> Análise desenvolvida por Marianna Carvalho </p>
+<p align="center"> Modelo desenvolvido e disponibilizado por Loui Costa </p>
