@@ -2,7 +2,7 @@
 
 ### Contextualização e Resumo da Análise
 
-Projeto final apresentado ao final do bootcamp "Python: Fundamentos e Análise de Dados" da [{reprograma}](https://reprograma.com.br/curso-python/), realizado no segundo semestre de 2023.
+Projeto final apresentado ao final do bootcamp "Python: Fundamentos e Análise de Dados" da [{reprograma}](https://reprograma.com.br/curso-python/), realizado no segundo semestre de 2023. O projeto foi realizado ao longo das semanas 17 e 18 do curso.
 
 [Repositório no GitHub](https://github.com/zenite-serena/Desmatamento-e-Agropecuaria-no-Brasil)
 
